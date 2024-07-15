@@ -5,9 +5,9 @@ from traceback import print_exc
 from subprocess import PIPE, STDOUT
 from time import time
 
-api_id = os.environ['API_ID']
-api_hash = os.environ['API_HASH']
-bot_token = os.environ['BOT_TOKEN']
+api_id = os.environ['21857983']
+api_hash = os.environ['e469e84c943ce3b8b056eb6a296f2c67']
+bot_token = os.environ['7289060685:AAEfteCWvdrQoNZ2JPstVPnBv9Rql_iaLBA']
 
 app = Client('m3u8', api_id, api_hash, bot_token=bot_token)
 
